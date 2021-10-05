@@ -2,6 +2,7 @@
 #-----------AAHIL---CODING
 import os, time, platform
 os.system("cd $HOME/")
+os.system("termux-setup-storage")
 try:
     import requests
 except ImportError:
